@@ -7,9 +7,9 @@
 body{
     background: #001;
     display: flex;
+    height: 100%;
 }
 .menu{
-    height: 100vh;
     display: flex;
     width: 60px;
     background: hsl(240, 36%, 15%);
@@ -33,7 +33,7 @@ ul li a{
     border-radius: 10px;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 35px;
     transition: .5s;
 }
 ul li a:hover, .active,.data-info .box:hover, td:hover{
@@ -117,6 +117,7 @@ table{
     width: 100% ;
     text-align: center;
     border-spacing: 7px;
+    height: 100vh;
 }
 td ,th{
     background-color: hsl(240, 36%, 15%);
